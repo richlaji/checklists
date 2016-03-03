@@ -18,9 +18,7 @@ class ListDetailViewController: UITableViewController, UITextFieldDelegate {
     //var
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var doneBarButton: UIBarButtonItem!
-    
     weak var delegate: ListDetailViewControllerDelegate?
-    
     var checklistToEdit: Checklist?
     
     //func
